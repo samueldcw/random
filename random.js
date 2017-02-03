@@ -5,9 +5,9 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
-    
-}
-
+  makeRect(0,0, 800,800, "skyblue")
+  makeCircle(185,15,23, "yellow") 
+} 
 
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
@@ -31,10 +31,14 @@ function createThirdScene() {
 // FILL IN THIS FUNCTION!
 // This function is called whenever you press the "Go!" button.
 function createRandomScene() {
-    // Generate a random number between 0 and 1, and store it in a variable.
-    
-    // If the number is less than 0.33, call the function to create your first scene.
-    
+    var myNumber = Math.random()
+    if(myNumber < 0.33){
+        createFirstScene()
+    }else if(myNumber < 0.67) {
+    createSecondScene()
+    }else{
+        createThirdScene()
+    }
     
     
     // Else, if the number is less than 0.67, call the function to create your second scene.
