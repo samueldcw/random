@@ -7,6 +7,7 @@ var namespace = "http://www.w3.org/2000/svg"
 function createFirstScene() {
   makeRect(0,0, 800,800, "skyblue")
   makeCircle(185,15,23, "yellow") 
+  makeRect(10,150, 200, 75, "green")
 } 
 
 // Fill in this function so that it draws something using SVG shapes!
