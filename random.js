@@ -18,9 +18,9 @@ function createFirstScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-     makeRect(0,0, 800,800, "gray")
-      makeCircle(185,15,23, "yellow") 
-        makeRect(0,75, 200, 35, "orange")
+     makeRect(0,0, 800,800, "#c69979")
+      makeCircle(105,75,23, "yellow") 
+        makeRect(0,75, 200, 55, "#d1a559")
 } 
 
 
@@ -29,8 +29,8 @@ function createSecondScene() {
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
      makeRect(0,0, 800,800, "MidnightBlue")
-      makeCircle(175.5,35 ,13, "white") 
-        makeRect(0,75, 200, 35, "white", 0.90)
+      makeCircle(175.5,45 ,13, "white") 
+        makeRect(0,75, 200, , "white", 0.90)
         makeCircle(75,56,1,"white",.99)
         makeCircle(15,24,1,"white",.99)
         makeCircle(48,33,1,"white",.99)
@@ -98,9 +98,9 @@ function createThirdScene() {
         makeCircle(26,12,"white",.99)
         
         makeCircle(175,80,24,"white")
+        makeCircle(178,76,1,"black")
         makeCircle(178,66,1,"black")
-        makeCircle(178,51,1,"black")
-        makeCircle(178,81,1,"black")
+        makeCircle(178,86,1,"black")
 }
 
 
